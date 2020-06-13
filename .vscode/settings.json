@@ -1,0 +1,11 @@
+{
+    "workbench.colorCustomizations": {
+        "[City Lights]": {
+            "titleBar.activeBackground": "#121a1d",
+            "titleBar.activeForeground": "#121a1d"
+        },
+        "activityBar.background": "#412808",
+        "titleBar.activeBackground": "#5B380C",
+        "titleBar.activeForeground": "#FEFAF4"
+    }
+}
