@@ -26,9 +26,10 @@ const Layout = ({ children }) => (
     <Header />
     <main
       css={css`
+        display: block;
         margin: 2rem auto 3rem;
-        max-width: 90vw;
-        width: 550px;
+        max-width: 90%;
+        width: 1400px;
       `}
     >
       {children}
