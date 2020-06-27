@@ -10,6 +10,7 @@ module.exports = {
         name: 'images',
         path: 'images',
       },
+      plugins: ['gatsby-plugin-sharp'],
     },
   ],
 };

@@ -17,21 +17,21 @@ export default () => {
     query {
       image: file(relativePath: { eq: "perth-one.jpg" }) {
         sharp: childImageSharp {
-          fluid(maxWidth: 1400, quality: 75) {
+          fluid(maxWidth: 1400, quality: 85) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       myimage: file(relativePath: { eq: "perth-two.jpg" }) {
         sharp: childImageSharp {
-          fluid(maxWidth: 1400, quality: 75) {
+          fluid(maxWidth: 1400, quality: 85) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       perthThree: file(relativePath: { eq: "perth-three.jpg" }) {
         sharp: childImageSharp {
-          fluid(maxWidth: 1400, quality: 75) {
+          fluid(maxWidth: 1400, quality: 85) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
